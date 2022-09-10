@@ -21,3 +21,5 @@ function incomeTax(income: number, taxYear: number): number {
     }
     return income * 10;
 }
+
+incomeTax(10_000,20_220)
